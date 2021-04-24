@@ -5,5 +5,6 @@
 
 int main(int argc, char *argv[]) {
 	printf("3131");
+	printf("\n6969");
 	return 0;
 }
