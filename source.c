@@ -53,7 +53,8 @@ int main(void)
     int x = 3131; //first number; first half:a, second half:b
     int y = 6969; //second number; first half:c, second half:d
 
-    if (digitsize(x) != digitsize(y)) {
+    if (digitsize(x) != digitsize(y))
+    {
             printf("Number of digits are not equal.\n");
             exit(1);
     }
