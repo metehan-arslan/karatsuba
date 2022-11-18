@@ -50,8 +50,8 @@ int multiply(int x, int y)
 
 int main(void)
 {
-    int x = 3131; //first number; first half:a, second half:b
-    int y = 6969; //second number; first half:c, second half:d
+    int x = 1234; //first  number; first half:a (12), second half:b (34)
+    int y = 5678; //second number; first half:c (56), second half:d (78)
 
     if (digitsize(x) != digitsize(y))
     {
